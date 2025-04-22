@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>org.zhang</groupId>
+        <artifactId>zhang-modules</artifactId>
+        <version>${revision}</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>zhang-demo</artifactId>
+
+    <description>
+        demo模块
+    </description>
+
+    <dependencies>
+
+        <!-- 通用工具-->
+        <dependency>
+            <groupId>org.zhang</groupId>
+            <artifactId>zhang-common-core</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.zhang</groupId>
+            <artifactId>zhang-common-doc</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.zhang</groupId>
+            <artifactId>zhang-common-sms</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.zhang</groupId>
+            <artifactId>zhang-common-mail</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.zhang</groupId>
+            <artifactId>zhang-common-redis</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.zhang</groupId>
+            <artifactId>zhang-common-idempotent</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.zhang</groupId>
+            <artifactId>zhang-common-mybatis</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.zhang</groupId>
+            <artifactId>zhang-common-log</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.zhang</groupId>
+            <artifactId>zhang-common-excel</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.zhang</groupId>
+            <artifactId>zhang-common-security</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.zhang</groupId>
+            <artifactId>zhang-common-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.zhang</groupId>
+            <artifactId>zhang-common-ratelimiter</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.zhang</groupId>
+            <artifactId>zhang-common-translation</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.zhang</groupId>
+            <artifactId>zhang-common-sensitive</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.zhang</groupId>
+            <artifactId>zhang-common-encrypt</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.zhang</groupId>
+            <artifactId>zhang-common-tenant</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.zhang</groupId>
+            <artifactId>zhang-common-websocket</artifactId>
+        </dependency>
+
+    </dependencies>
+
+</project>

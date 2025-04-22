@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>zhang</artifactId>
+        <groupId>org.zhang</groupId>
+        <version>${revision}</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <modules>
+        <module>zhang-common-bom</module>
+        <module>zhang-common-social</module>
+        <module>zhang-common-core</module>
+        <module>zhang-common-doc</module>
+        <module>zhang-common-excel</module>
+        <module>zhang-common-idempotent</module>
+        <module>zhang-common-job</module>
+        <module>zhang-common-log</module>
+        <module>zhang-common-mail</module>
+        <module>zhang-common-mybatis</module>
+        <module>zhang-common-oss</module>
+        <module>zhang-common-ratelimiter</module>
+        <module>zhang-common-redis</module>
+        <module>zhang-common-satoken</module>
+        <module>zhang-common-security</module>
+        <module>zhang-common-sms</module>
+        <module>zhang-common-web</module>
+        <module>zhang-common-translation</module>
+        <module>zhang-common-sensitive</module>
+        <module>zhang-common-json</module>
+        <module>zhang-common-encrypt</module>
+        <module>zhang-common-tenant</module>
+        <module>zhang-common-websocket</module>
+        <module>zhang-common-sse</module>
+    </modules>
+
+    <artifactId>zhang-common</artifactId>
+    <packaging>pom</packaging>
+
+    <description>
+        common 通用模块
+    </description>
+
+</project>
