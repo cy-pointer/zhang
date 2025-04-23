@@ -1,0 +1,6 @@
+org.zhang.common.translation.config.TranslationConfig
+org.zhang.common.translation.core.impl.DeptNameTranslationImpl
+org.zhang.common.translation.core.impl.DictTypeTranslationImpl
+org.zhang.common.translation.core.impl.OssUrlTranslationImpl
+org.zhang.common.translation.core.impl.UserNameTranslationImpl
+org.zhang.common.translation.core.impl.NicknameTranslationImpl
