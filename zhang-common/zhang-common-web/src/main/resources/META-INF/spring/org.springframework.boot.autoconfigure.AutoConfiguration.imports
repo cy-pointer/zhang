@@ -1,0 +1,5 @@
+org.zhang.common.web.config.CaptchaConfig
+org.zhang.common.web.config.FilterConfig
+org.zhang.common.web.config.I18nConfig
+org.zhang.common.web.config.ResourcesConfig
+org.zhang.common.web.config.UndertowConfig

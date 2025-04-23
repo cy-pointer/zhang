@@ -1,0 +1,3 @@
+org.zhang.common.encrypt.config.EncryptorAutoConfiguration
+org.zhang.common.encrypt.config.ApiDecryptAutoConfiguration
+
